@@ -8,3 +8,7 @@ def descending_order(num):
     return final_integer
 num = 2345678
 print(descending_order(num))
+
+
+def Descending_Order2(num2):
+    return int("".join(sorted(str(num2), reverse=True)))
